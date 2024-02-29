@@ -8,5 +8,5 @@ spec:
   type:  LoadBalancer
   ports:
   - name:  backend-port
-    port:  8080
+    port:  5000
     targetPort:  8080
