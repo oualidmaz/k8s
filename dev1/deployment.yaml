@@ -1,0 +1,14 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+  name: mybackend
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        tier: backend
+    spec:
+      containers:
+      - name: backend
+        image: willmaz/backend:latest
