@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: willmaz/backend:v5
+        image: willmaz/backend:v6
         ports:
         - containerPort: 5000
 
